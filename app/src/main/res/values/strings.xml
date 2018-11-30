@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">b_appmob_elbertse_alexy_liste_planete</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="montableau">
+    <item>Algorithmes</item>
+    <item>Sport</item>
+    <item>Farniente</item>
+    <item>Spoil</item>
+    <item>Vacances</item>
+    <item>Pascal</item>
+</string-array>
+
+</resources>
