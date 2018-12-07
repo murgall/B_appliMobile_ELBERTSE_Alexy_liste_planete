@@ -52,10 +52,11 @@ public class AndroidAdapter extends ArrayAdapter<AndroidVersion> {
         if (androidVersion != null) {
             final String versionName = String.format("Nom planete : %s", androidVersion.getVersionName());
             holder.title.setText(versionName);
-            final String versionNumber = String.format("distance : %s", androidVersion.getVersionNumber());
+            final String versionNumber = String.format("distance terre - planete: %s", androidVersion.getVersionNumber());
             holder.description.setText(versionNumber);
 
             switch (position){
+                //dessine les images des planetes
                 case 0 :
                     holder.imgpla.setBackgroundResource(R.drawable.jupiter);
                     break;

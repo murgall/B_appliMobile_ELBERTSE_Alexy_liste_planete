@@ -21,39 +21,41 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void initList(ArrayList<AndroidVersion> androidList){
+
+        //creation de la liste des planetes et de la distance terre - planete
         AndroidVersion version= new AndroidVersion();
         version.setVersionName("jupiter");
-        version.setVersionNumber("1.5");
+        version.setVersionNumber("591 000 000 km");
         androidList.add(version);
 
         AndroidVersion version2= new AndroidVersion();
         version2.setVersionName("mars");
-        version2.setVersionNumber("3");
+        version2.setVersionNumber("76 000 000 km");
         androidList.add(version2);
 
         AndroidVersion version3= new AndroidVersion();
         version3.setVersionName("mercure");
-        version3.setVersionNumber("4.5");
+        version3.setVersionNumber("moyenne : 150 000 000 km");
         androidList.add(version3);
 
         AndroidVersion version4= new AndroidVersion();
         version4.setVersionName("neptune");
-        version4.setVersionNumber("6");
+        version4.setVersionNumber("4 500 000 000 km");
         androidList.add(version4);
 
         AndroidVersion version5= new AndroidVersion();
         version5.setVersionName("saturne");
-        version5.setVersionNumber("7.5");
+        version5.setVersionNumber("moyenne : 4 200 000 000 km");
         androidList.add(version5);
 
         AndroidVersion version6= new AndroidVersion();
         version6.setVersionName("uranus");
-        version6.setVersionNumber("9");
+        version6.setVersionNumber("moyenne : 2 870 000 000 km");
         androidList.add(version6);
 
         AndroidVersion version7= new AndroidVersion();
         version7.setVersionName("venus");
-        version7.setVersionNumber("11");
+        version7.setVersionNumber("moyenne : 149 000 000 km");
         androidList.add(version7);
 
 
